@@ -41,17 +41,119 @@ transform:translate(-50%,20px);
     width:140px;
     height:30px;
 }
+.container1{
+position: absolute;
+width: auto;
+height: 1339px;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+
+}
+.container1-heading{
+display:flex;
+justify-content:start;
+flex-direction:column;
+transform:translateY(-690px);
+width:300px;
+margin-top: 160px;
+
+
+}
+.container1-box1{
+    display:flex;
+    flex-direction:row;
+    transform:translateY(-390px);
+    align-content: center;
+    margin-top: 280px;
+    
+   
+}
+.sub-design{
+  flex-direction: column;
+  margin-left: -320px;
+  margin-right: 10px;
+  margin-top:-30px;
+  padding:80px;
+  align-items: center;
+  width:300px;
+  
+    
+
+}
+.container1-box2{
+    display:flex;
+    flex-direction:row;
+    transform:translateY(-80px);
+    align-items: center;
+    margin-left:-600px;
+    flex-direction: row-reverse; 
+    margin-top:260px;
+        
+}
+.img-reverse{
+    margin-left: 300px;
+    margin-right: 120px;
+}
+.sub-design2{
+width:300px;
+margin-left: 80px;
+}
+.container1-box3{
+    display:flex;
+    flex-direction:row;
+    transform:translateY(1800px);
+    align-content: center;
+    margin-top: 220px;
+}
+.sub-design3{
+    width:300px;
+    margin-left: 240px;
+}
+.container-2{
+position: absolute;
+width: auto;
+height: 480px;
+left: 148px;
+right: 152px;
+top: 1800px;
+bottom: 1600px;
+margin-top: 100px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.container2-title{}
+
 
 /* Shared styles */
 .description-text{
     font-size: 14px;
     color:#0D1321;
+    text-align: center;
 }
 .container-title{
-    
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;   
 
 }
 .container-subtitle{
-
+font-size:22px;
+font-weight: 700;
+color:rgba(13, 19, 33, 0.7);
 }
 
