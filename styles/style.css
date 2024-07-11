@@ -134,9 +134,21 @@ justify-content: flex-start;
 align-items: center;
 padding: 0px;
 }
-.container2-title{}
+.container2-title{
 
+}
+.container3{
+width:auto;
+height:480px;
+margin-top:2100px;
+}
+.container3-title{
 
+}
+.skills-card{
+display:flex;
+justify-content: space-around;
+}
 /* Shared styles */
 .description-text{
     font-size: 14px;
