@@ -140,6 +140,7 @@ margin-top:32px;
     margin:0 auto;
     border:1px solid green;
     margin-top:88px;
+    padding:32px;
 }
 
 .container3-heading{
@@ -150,18 +151,55 @@ margin: 20px auto 20px;
 .container-3-video{
 width: 1076px;
 height: 550px;
-margin:0 auto;
 flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 10px 0px;
 }
 
-.skills-card{
-display:flex;
-justify-content: space-around;
+/* Container-4:my current Target */
+.Container-4{
+width: 1140px;
+height: 463px;
+border:1px solid green;
+margin:149px auto 149px;
+display: flex;
+flex-direction: column;
 }
+
+.container4-heading{
+width: 852px;
+height: 115px;
+}
+.cards{
+width: 1140px;
+height: 300px;
+border:1px dotted red;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.card1{
+width: 364px;
+height: 300px;
+padding:40px;
+margin:0px 24px;
+background: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    width: 364px;
+    height: 300px;
+    padding:40px;
+    margin:0px 24px;
+    background: rgba(30, 180, 255, 0.05);
+    }
+    .card3{
+        width: 364px;
+        height: 300px;
+        padding:40px;
+        margin:0px 24px;
+        background: rgba(30, 255, 45, 0.05);
+        }
+            
 .support{
     background-image: url('../assets/handshake.jpg');
     width:auto;
